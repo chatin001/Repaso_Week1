@@ -74,7 +74,7 @@
                 int e = 1;
                 while (e <= espacios)
                 {
-                    Console.Write("  "); // Dos espacios para mantener el alineamiento
+                    Console.Write("  ");  
                     e++;
                 }
 
