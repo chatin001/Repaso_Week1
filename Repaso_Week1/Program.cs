@@ -6,8 +6,6 @@ namespace Repaso_Week1 //Agrupar
     {
         static void Main(string[] args) // Punto de Entrada del programa
         {
-            
-
             double primernumero;
             double segundonumero;
             double tercernumero;
@@ -16,7 +14,6 @@ namespace Repaso_Week1 //Agrupar
             Console.WriteLine("Cual es el numero mayor de 3 numeros : ");
             Console.WriteLine("===============");
             
-
             // Escribir la logica
 
             // Solicito el primer número
@@ -44,6 +41,14 @@ namespace Repaso_Week1 //Agrupar
 
             Console.Write(numeromayor);
         }
+ 
+
 
         }
-    }
+
+
+
+
+
+
+}
