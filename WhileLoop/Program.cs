@@ -64,33 +64,34 @@
                     inicio++;
                 }
 
+            // patron de izquierda a derecha 
+
+            int inicio = 1;
+            while (inicio <= 5)
+            {
+                // Primero imprimimos los espacios
+                int espacios = 5 - inicio;
+                int e = 1;
+                while (e <= espacios)
+                {
+                    Console.Write("  "); // Dos espacios para mantener el alineamiento
+                    e++;
+                }
+
+                // Luego imprimimos los números
+                int b = 1;
+                while (b <= inicio)
+                {
+                    Console.Write(b + " ");
+                    b++;
+                }
+
+                Console.WriteLine(""); // Salto de línea
+                inicio++;
 
             }
 
-        // patron de izquierda a derecha 
-
-        int inicio = 1;
-while (inicio <= 5)
-{
-    // Primero imprimimos los espacios
-    int espacios = 5 - inicio;
-        int e = 1;
-    while (e <= espacios)
-    {
-        Console.Write("  "); // Dos espacios para mantener el alineamiento
-        e++;
-    }
-
-    // Luego imprimimos los números
-    int b = 1;
-    while (b <= inicio)
-    {
-        Console.Write(b + " ");
-        b++;
-    }
-
-Console.WriteLine(""); // Salto de línea
-inicio++;
+        
 }
             
 
