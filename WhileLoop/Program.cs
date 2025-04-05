@@ -66,11 +66,11 @@
 
             // patron de izquierda a derecha 
 
-            int inicio = 1;
-            while (inicio <= 5)
+            int inicio2 = 1;
+            while (inicio2 <= 5)
             {
                 // Primero imprimimos los espacios
-                int espacios = 5 - inicio;
+                int espacios = 5 - inicio2;
                 int e = 1;
                 while (e <= espacios)
                 {
@@ -80,21 +80,20 @@
 
                 // Luego imprimimos los números
                 int b = 1;
-                while (b <= inicio)
+                while (b <= inicio2)
                 {
                     Console.Write(b + " ");
                     b++;
                 }
 
                 Console.WriteLine(""); // Salto de línea
-                inicio++;
+                inicio2++;
 
             }
 
         
 }
             
-
-        }
+    }
  
 }
