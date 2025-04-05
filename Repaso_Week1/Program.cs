@@ -6,64 +6,44 @@ namespace Repaso_Week1 //Agrupar
     {
         static void Main(string[] args) // Punto de Entrada del programa
         {
-            int edad = 22;
-            double numerodecimal = 10.00;   
-            char caracter = '1';
-            bool esMayordeEdad = true;
-            string nombre = "Andre"; // Tipo de datos de Referencia
+            
 
-            if (edad > 18)
-            {
-                Console.WriteLine("Soy mayor de edad"); // Imprime string dentro de un runtime
-            }
-            else {
-                Console.WriteLine("NO eres mayor de edad"); // Imprime string dentro de un runtime
-            }
-
-            // dias de la semana
-            Console.WriteLine("================");
-            Console.WriteLine("Dias de la semana");
-            String diaSemana = "lunes";
-
-            switch (diaSemana) {
-
-                case "Lunes":
-                    Console.WriteLine("El dia es Lunes");
-                    break;
-
-                case "Martes":
-                    Console.WriteLine("El dia es Martes");
-                    break;
-            }
-            {
-                    Console.WriteLine("No es dia de la semana");
-            }
-
-
-            // Comprobar si un numeo es impar o par
-
-            int numeroAcomprobar;
+            double primernumero;
+            double segundonumero;
+            double tercernumero;
             Console.WriteLine("");
             Console.WriteLine("===============");
-            Console.WriteLine("Ingresa el valor a comprobar: ");
+            Console.WriteLine("Cual es el numero mayor de 3 numeros : ");
             Console.WriteLine("===============");
-            numeroAcomprobar = Convert.ToInt32(Console.ReadLine());
+            
 
-            // Comprobacion
+            // Escribir la logica
 
-            if (numeroAcomprobar % 2 == 0)
+            // Solicito el primer número
+            Console.Write("\nIngrese el primer número: ");
+             primernumero = Convert.ToDouble(Console.ReadLine());
+
+            // Solicito el segundo número
+            Console.Write("Ingrese el segundo número: ");
+             segundonumero = Convert.ToDouble(Console.ReadLine());
+
+            // Solicito el tercer número
+            Console.Write("Ingrese el tercer número: ");
+             tercernumero = Convert.ToDouble(Console.ReadLine());
+
+            double numeromayor = primernumero = 0;
+            if (segundonumero > numeromayor)
             {
-                Console.WriteLine("El numero es par");
-            }
-            else {
-                Console.WriteLine("El numero es impar");
-
+                numeromayor = segundonumero;
             }
 
-           
+            if (tercernumero > numeromayor)
+             {
+                 numeromayor = tercernumero;
+            }
 
-
+            Console.Write(numeromayor);
+        }
 
         }
     }
-}
